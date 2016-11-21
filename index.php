@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 
 if(!isset($_SESSION['counter'])) {
@@ -9,7 +8,6 @@ if(!isset($_SESSION['counter'])) {
 if(isset($_POST['button'])) {
     ++$_SESSION['counter'];
 }    
-
 ?>
 
 <title>yo.</title>
