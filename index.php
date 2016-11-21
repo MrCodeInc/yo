@@ -13,7 +13,7 @@ if(isset($_POST['button'])) {
 <title>yo.</title>
 <p>Click to yo.</p>
 <form method="POST">
-    <input type="hidden" name="counter" value="<?php echo $_SESSION['counter']; ?>" />
+    <input type="hidden" name="counter" value="<?php echo You wasted your clicks $_SESSION['counter'] times; ?>" />
     <input type="submit" name="button" value="yo." />
-    <br/><?php echo You wasted your clicks $_SESSION['counter'] times; ?>
+    <br/><?php echo $_SESSION['counter']; ?>
 </form>
