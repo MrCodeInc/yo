@@ -1,3 +1,5 @@
+<?php
+
 session_start();
 
 if(!isset($_SESSION['counter'])) {
@@ -10,8 +12,10 @@ if(isset($_POST['button'])) {
 
 ?>
 
+<title>yo.</title>
+Click to yo.
 <form method="POST">
     <input type="hidden" name="counter" value="<?php echo $_SESSION['counter']; ?>" />
-    <input type="submit" name="button" value="Counter" />
-    <br/><?php echo $_SESSION['counter']; ?>
+    <input type="submit" name="button" value="yo." />
+    <br/><?php echo You wasted your clicks $_SESSION['counter'] times; ?>
 </form>
