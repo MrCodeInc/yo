@@ -11,7 +11,7 @@ if(isset($_POST['button'])) {
 ?>
 
 <title>yo.</title>
-Click to yo.
+<p>Click to yo.</p>
 <form method="POST">
     <input type="hidden" name="counter" value="<?php echo $_SESSION['counter']; ?>" />
     <input type="submit" name="button" value="yo." />
